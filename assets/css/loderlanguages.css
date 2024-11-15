@@ -1,0 +1,46 @@
+.circle {
+  
+    border-radius: 50%;
+    background-color: white; /* Change background color as needed */
+    border: 5px solid;
+    border-image: 
+        linear-gradient(45deg, red, blue) 1,
+        linear-gradient(135deg, yellow, green) 1,
+        linear-gradient(-45deg, cyan, magenta) 1,
+        linear-gradient(-135deg, orange, purple) 1;
+    border-image-slice: 1;
+    animation: rotateBorder 5s linear infinite;
+    border-color: brown;
+  }
+  
+  @keyframes rotateBorder {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+  }
+  .circle1{
+    border-color: #ffa400;
+  }
+  
+  .circle2{
+    border-color: purple;
+  }
+  
+  .circle4{
+    border-color: blue;
+  }
+  .circle5{
+    border-color: teal;
+  }
+  .circle6{
+    border-color: brown;
+  }
+  
+  .circle7{
+    border-color: green;
+  }
+  
+  
