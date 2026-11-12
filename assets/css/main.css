@@ -586,6 +586,18 @@ a.back-to-top:hover, a.back-to-top:focus{
 .about-content{
 	margin-top: 15px;
 }
+.about-photo img{
+	width: 100%;
+	max-height: 520px;
+	object-fit: cover;
+}
+.about-tech-line{
+	margin-top: 16px;
+	color: #fff;
+}
+.about-tech-line strong{
+	color: #08d665;
+}
 .about-image img{
     border-radius: 0px;
 	border: 10px solid #08d665;
